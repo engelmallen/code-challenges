@@ -1,0 +1,28 @@
+.newBox
+{
+	border-radius: 10%;
+	width : 100px;
+	height :100px;
+	background :cyan;
+	margin: 5px 20px;
+	float: left;
+}
+
+.niceBox
+{
+	border-radius: 10%;
+	width : 50px;
+	height :50px;
+	background :magenta;
+	margin: 5px 20px;
+	float: left;
+}
+
+#container
+{
+	width: 100%;
+	height: 500px;
+
+}
+
+

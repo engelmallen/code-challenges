@@ -7,27 +7,7 @@ let images =
 	 "/static/image9.jpg", "/static/image10.jpg", "/static/image11.jpg", "/static/image12.jpg"
 	]
 
-/*function killStatic(thisVar)
-{
-	thisVar.forEach(function(x)
-			{
-			x = x.split("/static/")
-			x = x.shift()
-			}
-		)
-	console.log(thisVar)
-}
 
- killStatic(images)*/
-
-// console.log(images)
-
-
-
-
-
-
-			// or
 let changer = []
 
 images.forEach( function(a)
@@ -45,5 +25,20 @@ changer.forEach(function(b)
 		// console.log(b)
 }
 )
+
+console.log(images)
+
+// function killStatic(thisVar)
+// {
+// 	thisVar.forEach(function(x)
+// 			{
+// 			x = x.split("/static/")
+// 			x = x.shift()
+// 			}
+// 		)
+// 	console.log(thisVar)
+// }
+
+ killStatic(images)
 
 console.log(images)
