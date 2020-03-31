@@ -1,7 +1,7 @@
 #bigSquare
 {
 	width: 200px;
-	height: 500px;
+	/*height: 500px;*/
 	background: cyan;
 	border: 5px solid orange;
 	padding: 15px;
